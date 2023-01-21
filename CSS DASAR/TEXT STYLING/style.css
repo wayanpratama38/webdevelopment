@@ -1,0 +1,23 @@
+/* text-align
+    text-decoration
+    text-transform
+    word-spacing
+    line-spacing
+    color */
+
+h1 {
+    color: khaki;
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+p {
+    word-spacing: 10px;
+    line-height: 20px;
+    text-indent: 10px;
+}
+
+a{
+    text-decoration: none ;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <!-- pertama gunakan tag <form></form>
+    kemudian di dalamnya biasanya ada beberapa tag yang digunakan yaitu: 
+    input,textarea,select,button,label -->
+
+    <!-- pertama tag input
+    tag input tidak ada tag penutup
+    <input type="">
+    ada beberapa value yang bisa diisi ke atribut type
+    text = untuk memasukkan text
+    password = untuk memasukkan password
+    radio = membuat salah satu pilihan
+    checkbox = membuat banyak pilihan-->
+<form>
+    <table border="1">
+        <tbody>
+            <tr>
+            <td><label for="username">username : </label></td>
+            <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">password :</label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="radio" name="jeniskelamin" id="pria"><label for="pria">Pria</label>
+                <input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">Wanita</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="nasi1"><label for="nasi1">Nasi Padang</label>               <input type="checkbox" id="nasi2"><label for="nasi2">Nasi Goreng</label></td>
+            </tr>
+                <!-- Terdapat beberapa tag lagi yaitu: textarea dan select  -->
+            <tr>
+                <td><label for="textarea">textarea :</label></td>
+                <td><textarea id="textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="opsi">opsi :</label></td>
+                <td><select id="opsi">
+                    <option>TEH ES</option>
+                    <option>JOS SUSU</option>
+                    <option>KOPI SUSU</option>
+                </select></td>
+            </tr>
+
+                <td colspan="2"><button type="submit">KIRIM</button></td>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABEL</title>
+</head>
+<body>
+    <!-- Table yang simple -->
+    <table>
+        <tr>
+            <td>BARIS 1 KOLOM 1</td>
+            <td>BARIS 1 KOLOM 2</td>
+            <td>BARIS 1 KOLOM 3</td>
+        </tr>
+        <tr>
+            <td>BARIS 2 KOLOM 1</td>
+            <td>BARIS 2 KOLOM 2</td>
+            <td>BARIS 2 KOLOM 3</td>
+        </tr>
+    </table>
+
+
+    <!-- Table yang complex -->
+    <hr>
+    <table>
+        <thead>
+            <th>KOLOM 1</th>
+            <th>KOLOM 2</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BARIS 1 KOLOM 1</td>
+                <td>BARIS 1 KOLOM 2</td>
+            </tr>
+            <tr>
+                <td>BARIS 2 KOLOM 1</td>
+                <td>BARIS 2 KOLOM 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ada beberapa attribut yang bisa digunakan pada table
+    
+    border = untuk membuat garis-garis tabel
+
+    cellspacing = untuk mengatur jarak spasi antar cell
+
+    cellpadding = untuk mluaskan daerah dalam masing-masing cell-->
+    <hr>
+    <br><br>
+
+    <!-- Table yang complex dengan beberapa attribut -->
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <th>KOLOM 1</th>
+            <th>KOLOM 2</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BARIS 1 KOLOM 1</td>
+                <td>BARIS 1 KOLOM 2</td>
+            </tr>
+            <tr>
+                <td>BARIS 2 KOLOM 1</td>
+                <td>BARIS 2 KOLOM 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Attribut colspan & rowspan
+    
+    colspan = untuk menyatukan dua buah kolom
+
+    rowspan = untuk menyatukan dua buah baris-->
+
+    <!-- TABEL COMPLEX -->
+    <hr>
+    <br><br>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">ROWSPAN 3</td>
+                <td colspan="2">COLSPAN 2</td>
+            </tr>
+            <tr>
+                <td>2,2</td>
+                <td>2,3</td>
+            </tr>
+            <tr>
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

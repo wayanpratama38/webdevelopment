@@ -1,0 +1,26 @@
+
+/* Normalnya penggunaan margin seperti ini */
+
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+/* dalam kasus menambahkan margin dalam sumbu y atau vertikal maka yang terbesar yang akan menang dan jika bernilai negatif maka yang semakin kecil yang menang */
+
+/* sedangkan dalam kasus margin dalam sumbu x atau horizontal adalah jaraknya akan terus bertambah */
+

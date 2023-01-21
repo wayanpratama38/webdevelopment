@@ -1,0 +1,22 @@
+li:first-child a{
+    color: red;
+}
+
+li:last-child a{
+    color: black;
+}
+
+li:nth-child(2n) a:hover{
+    color: pink;
+}
+
+
+p:first-of-type{
+    color: purple;
+    font-size: 30px;
+}
+
+p:last-of-type{
+    color:blue;
+    font-size: 50px;
+}

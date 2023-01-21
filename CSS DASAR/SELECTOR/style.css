@@ -1,0 +1,43 @@
+body{
+    background-color: khaki;
+}
+
+/* Penggunaan ,(koma) berguna sebagai penghubung antara dua buah tag atau lebih */
+h1,h2{
+    color: plum;
+}
+
+/* Penggunaan (spasi) untuk mencari lebih spesifikasi mana yang akan dilakukan pewarnaan */
+ul li a{
+    color: orange;
+}
+
+ol li a{
+    color: brown;
+}
+
+/* pada selector kita bisa menggunakan tag,id,class,dan complex id */
+
+/* yang disarankan adalah class */
+
+/* cara pemanggilan class adalah dengan cara menggunakan .(tanda titik di awal) */
+.p1{
+    color: blue;
+}
+
+/* cara pemanggilan id adalah dengan cara menggunakan tanda #(hastag/kres) di awal */
+
+#p2{
+    color: blueviolet;
+}
+
+
+/* penggunaan class juga bisa banyak dengan dipisahkan oleh spasi */
+.cetak-tebal{
+    font-size: 30px;
+}
+
+/* semakin spesifik alamat selectornya maka hasil yang ditampilkan juga berbeda */
+p.cetak-tebal{
+    font-size: 20px;
+}

@@ -1,0 +1,11 @@
+body{
+    color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* karena si link tidak dapat mengikuti warna yang ada pada body atau orangtuanya maka diperlukan inheritance */
+
+/* dengan cara
+a {properti:inherit} */
+
+a{color:inherit}

@@ -1,0 +1,19 @@
+/* penggunaan pading sama dengan pengunaan margin hanya saja pada padding tidak ada nilai negatif dan tidak dapat menggunakan value auto */
+
+/* ketika melakukan padding dan border itu semua akan berpengaruh pada aspek width dan height sehingga harus diakalkan dengan menggunakan attribut box-sizing = "border-box" */
+
+/* cara penggunaan border adalah
+border : width style color
+
+style terdiri dari = dash,double,solid,dotted*/
+
+
+div{
+    width: 300px;
+    
+    margin: 30px auto;
+    background-color: red;
+    padding: 30px;
+    border: 10px dotted blue;
+    box-sizing: border-box;
+}

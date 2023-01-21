@@ -1,0 +1,19 @@
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color: green;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hello:active{
+    color:red;
+    font-style: italic;
+
+}
+
+.hello:visited{
+    color: aqua;
+}
