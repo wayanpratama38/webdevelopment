@@ -1,0 +1,44 @@
+
+/* jika menggunakan atribut position dengan value static maka hasilnya akan sama saja karena static merupakan defaul dari atribut position */
+.satu{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.tiga{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+}
+
+
+/* jiika menggunakan value relatif maka elemnt tersebut akan dinaikan satu dimensi yang berbeda dari yang lain tetapi akan meninggalkan bekas pada posisi awalnya dan jika di set top=0 dan left=0 hasilnya elemnt html tersebut akan berada di posisi awal*/
+
+.satu{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+
+.tiga{
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+}

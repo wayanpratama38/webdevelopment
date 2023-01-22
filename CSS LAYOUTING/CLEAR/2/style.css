@@ -1,0 +1,20 @@
+.container{
+    width: 800px;
+    margin: auto;
+    border: 5px solid black;
+
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    float: left;
+    margin: 5px;
+}
+
+
+/* membuat sebuah div kosong dengan nama class terserah yang kemudian di dalam nya menggunakan sebuah atribut clear dengan value menyesuaikan dengan float yang terjadi */
+.container .celar{
+    clear:left
+}

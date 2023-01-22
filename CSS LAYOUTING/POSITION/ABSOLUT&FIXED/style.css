@@ -1,0 +1,51 @@
+.container{
+    width: 800px;
+    height: 800px;
+    margin:auto;
+    border: 1px solid black;
+}
+
+/* pada position yang absolut element akan dinaikan satu dimensi dan posisinya jika dimasukkan top=0 dan left/right=0 akan membuatnya fit ke tampilan browser */
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.dua{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.tiga{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+}
+
+/* untuk membuatnya sesuai dengan container yang dibuat maka container harus ditambahkan position yang relatif */
+
+.container{
+    width: 800px;
+    height: 800px;
+    margin:auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+/* sedangkan fixed position akan membuat element tersebut tetap pada lokasi yang sama meskipun browser dikecilkan atau discroll */
+
+.dua{
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
