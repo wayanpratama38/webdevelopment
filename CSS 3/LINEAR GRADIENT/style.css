@@ -1,0 +1,22 @@
+div{
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    /*
+    syntax
+    background : linear-gradient(<sudut>|<arah>,<warna awal>,...,<warna akhir>)
+    */
+    background: linear-gradient(-90deg,blue,skyblue);
+    /*
+    syntax
+    background : linear-gradient(<sudut>|<arah>,<warna awal> color stop,...,<warna akhir> color stop)
+    */
+
+    /*
+    pilihan arah;
+    to left     to bottom   to left top     to left bottom
+    to right    to top      to right top    to right bottom
+    */
+    background: linear-gradient(to right top,blue,skyblue 80%);
+
+}

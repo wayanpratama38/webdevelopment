@@ -1,0 +1,40 @@
+.kotak{
+    width: 150px;
+    height: 150px;
+    background-color: skyblue;
+    animation: animasiKotak 2s ease 3 alternate forwards;
+}
+
+/*
+cara menggunakan animationa adalah dengan syntax
+
+@keyframe nama_animasi {
+    from{
+
+    }
+    ...
+
+    to{
+
+    }
+
+}
+
+// ada beberapa properti pada animation, awalnya nama,durasi,time-function,delay,iteration-count,direction,fill-mode,play-state
+*/
+
+@keyframes animasiKotak {
+    0%{
+        width: 150px;
+    }
+
+    50%{
+        width: 600px;
+        height: 150px;
+    }
+
+    100%{
+        width: 600px;
+        height: 600px;
+    }
+}

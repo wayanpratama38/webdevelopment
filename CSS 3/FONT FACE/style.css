@@ -1,0 +1,22 @@
+/*
+menggunakan @font-face {
+    font-family : "kasih nama font disini sebagai cara panggilnya";
+    src : url(lokasi dari font) format('truetype');
+
+}
+*/
+
+@font-face {
+    font-family: 'delicious_handrawnregular';
+    src: url('delicioushandrawn-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    line-height: 300px;
+    font-family: "delicious_handrawnregular",arial;
+}

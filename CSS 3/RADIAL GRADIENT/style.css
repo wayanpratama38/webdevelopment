@@ -1,0 +1,23 @@
+div{
+    width: 600px;
+    height: 300px;
+    margin : 150px auto ;
+    /*
+    syntax radial gradient();
+    <jenis> <jangkauan> at <y-position> <x-position>,
+    <warna awal>,
+    ...
+    ...
+    <warna ke-n>
+
+    jenis = cirlce dan ellipse
+    jangkauan=
+    closest corner || farthest corner
+    closest side   || farthest side
+    position=
+    y-position : center,top,bottom atau px
+    x-position : center,lef,right, atau px
+    */
+
+    background-image: radial-gradient(circle farthest-side at bottom left,blue,skyblue);
+}

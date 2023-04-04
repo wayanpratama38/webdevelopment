@@ -1,0 +1,18 @@
+
+.kotak{
+    width: 300px;
+    height: 150px;
+    background-color: skyblue;
+    margin: 50px auto;
+    transition: 3s;
+}
+/*
+    scale(angka),scaleX(angka),scaleY(angka);
+    rotate(deg),rotateX(deg),rotateY(deg);
+    skew(deg),skewX(deg),skewY(deg);
+    translate(px),translateX(px),translateY(px);
+
+*/
+.kotak:hover{
+    transform: scale(1.5,0.5) rotateX(180deg) rotateY(180deg);
+}

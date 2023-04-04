@@ -1,0 +1,26 @@
+.satu{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    position: relative;
+    background-color: rgba(30,20,0,.5);
+}
+/*
+kalau opacity kan akan menurunkan sifatnya ke dalam container didalamnya
+pakai properti rgba (red,green,blue,alpha)
+atau hsla(hue,saturity,lightness,alpha)
+alpha = tingkat opacity
+
+*/
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 250px;
+    bottom: -50px;
+
+}
+body{
+    background-image: url(bg.jpg);
+}
